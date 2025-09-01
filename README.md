@@ -22,6 +22,16 @@ This repository provides a complete step-by-step guide to install and run **n8n*
 
 ### 1. Create Google Cloud VM (Free)
 
+Firstly, create a new project. Then, inside your new project, go to **Compute Engine > VM instances** to create your VM instance.
+
+![Setup Screenshot](./images/Setup1.png)
+
+Create your VM by clicking **Create Instance** with blue button on the top.
+
+![Setup Screenshot](./images/Setup2.png)
+
+Use this below configurations to get VM for **FREE**. Noted that using free configuration might underperform your performance especially if you want to make a big scale project. For testing or lightweight project, might not be a problem.
+
 #### Machine Configuration:
 - Region: _us-west1 (Oregon)_ or _us-central1 (Iowa)_ or _us-east1 (South Carolina)_
 - Zone: _Any_
@@ -47,6 +57,8 @@ Create and you're done with your VM instance!🤗
 ### 2. Launch the VM by connecting to the SSH
 
 Click the down arrow next to the **SSH** button. Choose **Open in browser** window and it will open a terminal window through your browser, giving you direct access to your server.
+
+![Setup Screenshot](./images/Setup3.png)
 
 ---
 
