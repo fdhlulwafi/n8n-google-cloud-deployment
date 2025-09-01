@@ -40,13 +40,13 @@ This repository provides a complete step-by-step guide to install and run **n8n*
 - Network tags: _n8n_
 - Hostname: _Any your domain link_
 
+Create and you're done with your VM instance!🤗
+
 ---
 
-### 2. SSH into VM
+### 2. Launch the VM by connecting to the SSH
 
-```bash
-gcloud compute ssh <INSTANCE_NAME>
-```
+Click the down arrow next to the **SSH** button. Choose **Open in browser** window and it will open a terminal window through your browser, giving you direct access to your server.
 
 ---
 
