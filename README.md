@@ -33,22 +33,22 @@ Create your VM by clicking **Create Instance** with blue button on the top.
 Use this below configurations to get VM for **FREE**. Noted that using free configuration might underperform your performance especially if you want to make a big scale project. For testing or lightweight project, might not be a problem.
 
 #### Machine Configuration:
-- Region: _us-west1 (Oregon)_ or _us-central1 (Iowa)_ or _us-east1 (South Carolina)_
-- Zone: _Any_
-- Machine type: _e2-micro (2 vCPU, 1 core, 1 GB memory)_
+- Region: `us-west1 (Oregon)` or `us-central1 (Iowa)` or `us-east1 (South Carolina)`
+- Zone: `Any`
+- Machine type: `e2-micro (2 vCPU, 1 core, 1 GB memory)`
 
 #### OS and Storage:
-- OS: _Ubuntu_
-- Version: _Ubuntu 25.04 Minimal_
-- Boot disk type: _Standard persistent disk_
-- Size (GB): _30_
+- OS: `Ubuntu`
+- Version: `Ubuntu 25.04 Minimal`
+- Boot disk type: `Standard persistent disk`
+- Size (GB): `30`
 
 #### Networking:
 - ☑ Allow HTTP Traffic
 - ☑ Allow HTTPS Traffic
 - ☑ Allow Load Balancer Health Checks
-- Network tags: _n8n_
-- Hostname: _Any your domain link_
+- Network tags: `n8n`
+- Hostname: `your-custom-domain.com`
 
 Create and you're done with your VM instance!🤗
 
@@ -118,7 +118,11 @@ cd n8n-google-cloud-deployment
 
 #### n8n folder
 
-Create `.env` file inside `n8n/`:
+Create `.env` file inside `n8n-projects/n8n/`. To write (and create automatically) `.env`, use command `nano` like this:
+
+```bash
+nano .env
+```
 
 ```bash
 # Top level domain and subdomain
@@ -131,7 +135,7 @@ GENERIC_TIMEZONE=Asia/Kuala_Lumpur
 
 #### traefik folder
 
-Create `.env` file inside `traefik/`:
+Create `.env` file inside `n8n-projects/traefik/`:
 
 ```bash
 # Email for TLS/SSL certificate
