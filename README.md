@@ -14,7 +14,7 @@ This repository provides a complete step-by-step guide to install and run **n8n*
 
 ## 🛠️ Prerequisites
 - Google Cloud account
-- Self-domain@subdomain link (_you can get for FREE from www.noip.com_)
+- A custom domain/subdomain (_you can get for FREE from www.noip.com_)
 
 ---
 
@@ -122,8 +122,8 @@ Create `.env` file inside `n8n/`:
 
 ```bash
 # Top level domain and subdomain
-DOMAIN_NAME=<<YOUR_OWN_DOMAIN>>
-SUBDOMAIN=<<YOUR_OWN_SUBDOMAIN>>
+DOMAIN_NAME=<<YOUR_CUSTOM_DOMAIN>>
+SUBDOMAIN=<<YOUR_CUSTOM_SUBDOMAIN>>
 
 # Timezone
 GENERIC_TIMEZONE=Asia/Kuala_Lumpur
