@@ -14,7 +14,7 @@ This repository provides a complete step-by-step guide to install and run **n8n*
 
 ## 🛠️ Prerequisites
 - Google Cloud account
-- A custom domain/subdomain (_you can get for FREE from www.noip.com_)
+- A custom domain/subdomain (_you can get for FREE from www.noip.com or www.dynu.com_)
 
 ---
 
