@@ -108,7 +108,7 @@ docker compose version
 
 ```bash
 # Example: clone your repo
-git clone https://github.com/<USERNAME>/n8n-google-cloud-deployment.git
+git clone https://github.com/fdhlulwafi/n8n-google-cloud-deployment.git
 cd n8n-google-cloud-deployment
 ```
 
